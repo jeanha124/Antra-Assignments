@@ -16,10 +16,16 @@ h2 {
 
 h6 {
   width: 360px;
+  margin: 0;
 }
 
 #check {
   display: flex;  
+}
+
+label {
+  height: 30px;
+  padding-right: 10px;
 }
 
 #first, #last, #phone, #e-mail, #pass, #cpass {
@@ -61,7 +67,8 @@ h6 {
 #mini-R {
   background-color: royalblue;
   color: white;
-  border-radius: 5px;
+  border-radius: 4px;
+  padding: 2px 3px;
 }
 
 .box:focus {
